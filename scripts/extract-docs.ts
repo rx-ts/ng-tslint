@@ -25,7 +25,9 @@ export const DOC_COMMENT_REGEX = /\/\*+((\s*\*.*\n)+)\s*\*\/\nexport class Rule/
       continue
     }
 
-    const rule = file.replace(/\.ts$/, '')
+    const rule = file
+      .replace(/Rule\.ts$/, '')
+      .replace(/([A-Z]+)/g, (_, $0) => '-' + $0.toLowerCase())
     const comment = matches[1].replace(/\n? \* ?/g, '\n')
 
     RULES.push(`### ${rule}\n${comment}`)
