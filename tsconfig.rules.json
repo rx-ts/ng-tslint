@@ -1,0 +1,8 @@
+{
+  "extends": ".",
+  "compilerOptions": {
+    "esModuleInterop": false,
+    "outDir": "rules"
+  },
+  "include": ["components/tools/tslint-rules/*"]
+}

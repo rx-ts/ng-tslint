@@ -1,0 +1,41 @@
+{
+  "name": "ng-tslint",
+  "version": "1.0.0",
+  "description": "Useful TSLint rules extracted from `angular/components` for Angular libraries.",
+  "repository": "git+https://github.com/rx-ts/ng-tslint.git",
+  "homepage": "https://github.com/angular/components/tree/master/tools/tslint-rules",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/rxts"
+  },
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "main": "tslint.json",
+  "files": [
+    "tslint.json",
+    "rules",
+    "!rules/*.tsbuildinfo"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.rules.json",
+    "docs": "ts-node scripts/extract-docs",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@1stg/prettier-config": "^0.10.5",
+    "@1stg/tsconfig": "^0.10.3",
+    "@types/minimatch": "^3.0.3",
+    "@types/node": "^14.0.23",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  },
+  "renovate": {
+    "extends": [
+      "@1stg"
+    ]
+  }
+}
