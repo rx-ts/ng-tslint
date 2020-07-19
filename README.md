@@ -31,7 +31,7 @@ inherited class members and members that come from an interface.
 
 Lint rule that checks the names of class members against a pattern. Configured per modifier, e.g.
 
-```json
+```jsonc
 {
   "member-naming": [
     true,
@@ -110,7 +110,7 @@ Rule that enforces certain decorator properties to be defined and to match a pat
 Properties can be forbidden by prefixing their name with a `!`. Supports whitelisting
 files via the third argument, as well as validating all the arguments by passing in a regex. E.g.
 
-```json
+```jsonc
 {
   "validate-decorators": [
     true,
