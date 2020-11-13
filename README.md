@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/rx-ts/ng-tslint)
+
 # ng-tslint
 
 Useful TSLint rules extracted from [`angular/components`](https://github.com/angular/components/tree/master/tools/tslint-rules) for Angular libraries.
@@ -26,6 +28,13 @@ that won't work in all browsers that we support.
 TSLint rule that verifies that classes declare corresponding `ngAcceptInputType_*`
 static fields for inputs that use coercion inside of their setters. Also handles
 inherited class members and members that come from an interface.
+
+### lightweight-tokens
+
+Rule that warns if a DI constructor is discovered for which parameters optionally
+inject classes without using the lightweight token pattern. The rule intends to help
+with optimized source code that works well for tree shakers. Read more about this here:
+https://next.angular.io/guide/lightweight-injection-tokens.
 
 ### member-naming
 
@@ -107,8 +116,9 @@ Rule that enforces that property setters are declared after getters.
 ### validate-decorators
 
 Rule that enforces certain decorator properties to be defined and to match a pattern.
-Properties can be forbidden by prefixing their name with a `!`. Supports whitelisting
-files via the third argument, as well as validating all the arguments by passing in a regex. E.g.
+Properties can be forbidden by prefixing their name with a `!`. Supports specifying a matcher for
+filtering valid files via the third argument, as well as validating all the arguments by passing
+in a regex. E.g.
 
 ```jsonc
 {
