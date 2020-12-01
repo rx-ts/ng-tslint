@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@1stg/prettier-config@^0.10.5":
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/@1stg/prettier-config/-/prettier-config-0.10.5.tgz#13b6936f228aeae0c9e348ea745e05f96580ba86"
-  integrity sha512-HBj0gRN7AU4y8/Xw99Wa8/2jaf+aQ5R9/m5rPtpBcIQcMb5D/LXEaPmpA9cv2C+9YTPcSF7NFt56wxqndGd/XA==
+"@1stg/prettier-config@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@1stg/prettier-config/-/prettier-config-0.11.0.tgz#e0c63b402692d5f19f176a6884116c8a332f2c6c"
+  integrity sha512-fNLPVhnle0Cp6JDqjV2PeK/X3hhYAwQaEHL8Cz3p4fcqPQHdvgZ9BioA2X8KlD8WVGm46KySPL9PelaRSPfBjA==
   dependencies:
-    "@prettier/plugin-pug" "^1.4.4"
-    "@prettier/plugin-ruby" "^0.19.0"
-    prettier-plugin-pkg "^0.7.0"
-    prettier-plugin-sh "^0.4.0"
+    "@prettier/plugin-pug" "^1.12.0"
+    "@prettier/plugin-ruby" "^0.20.1"
+    prettier-plugin-pkg "^0.8.0"
+    prettier-plugin-sh "^0.6.0"
     prettier-plugin-toml "^0.3.1"
 
 "@1stg/tsconfig@^0.10.3":
@@ -39,17 +39,17 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@prettier/plugin-pug@^1.4.4":
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.10.1.tgz#c0c4cc986dd380f8773a0e3d9551bd67487f086e"
-  integrity sha512-HyX0FN8pGdumKS1eiVJ8jbYh8bx2DdbvBOpuKf4+SNP1Z8OFDZorl/q4ShH7oCqMAnFj2kFCpZkuIOkD6gZv7Q==
+"@prettier/plugin-pug@^1.12.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.13.0.tgz#fe15a229278fc5e867a17c00c7bfdbb8d3e8ceba"
+  integrity sha512-LEhY5rLE3snkFtmM+RHEeiar19TKsGmnw8m+5gWSDfdMlnjXm6QmdmbT4rzZTdyGJoAp/brpk+I25ZxC/UWLPg==
   dependencies:
     pug-lexer "^5.0.0"
 
-"@prettier/plugin-ruby@^0.19.0":
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-0.19.1.tgz#0fb7f806d5dcbcc1894c809ee2fe0cda9b00f774"
-  integrity sha512-HaSKzpESbiXT9/MBUzZbawajdeoiBmYN/XmH0asw/tQllJJaWYd/ZTRlAvGYj5Mu+b1upLurEGtPh4HmYcW3vg==
+"@prettier/plugin-ruby@^0.20.1":
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-0.20.1.tgz#5fc27541436914c34d9406e5d98908f0ba5ac290"
+  integrity sha512-SGIRV+T6dzWZN2xheT169Tjwb22K3rTrzUUqhJ436gUDz2hfI3OxxKNpfU/0j++HhhGECSwFlFjGBn5tB52+XQ==
   dependencies:
     prettier ">=1.10"
 
@@ -333,15 +333,15 @@ path-parse@^1.0.6:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
-prettier-plugin-pkg@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-pkg/-/prettier-plugin-pkg-0.7.0.tgz#fe5d2c3c6a09c5a67f90e86acdf6023299ca2099"
-  integrity sha512-u2FqTSz5FjPM/mnE3VovUh7MHalLX5srGXuk/K6qNpTjJcO1FU/p+9/cftEG9vccWhG/SVS6gX0pDP6IgSGGfw==
+prettier-plugin-pkg@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-pkg/-/prettier-plugin-pkg-0.8.0.tgz#379ca5c21a08e8e978a9d0ee0220fe9db36908f7"
+  integrity sha512-o0+gQDn7yQHFB4k667+aZLDuXlefCDzH00A+ExBlHx//CB9Wuj1lw935Hqu0PxGu+PXItsWlIr/wJZmdi8SGeg==
 
-prettier-plugin-sh@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-sh/-/prettier-plugin-sh-0.4.0.tgz#32e64f9d4c168045e27b4c4a815283eba4c398ff"
-  integrity sha512-Ehr+U+vunB0IwrgTR4iCYCka2BMI3We+Hpejm61JURnytOk9QjHyC9CwCS+zoVMMTnCEM/PMXKAUoVcoY87sYg==
+prettier-plugin-sh@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-sh/-/prettier-plugin-sh-0.6.0.tgz#021c22597a5a866c346095cd7f6c662a49dea249"
+  integrity sha512-y+SSThg/8mrGGkcAolWpociiTZlH7nlIUtqZl1dueyhngof8rD48tUHVQqvIaCx21T/0+9TyzsTEsVviPjR5og==
   dependencies:
     mvdan-sh "^0.5.0"
 
