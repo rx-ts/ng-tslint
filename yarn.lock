@@ -14,10 +14,10 @@
     prettier-plugin-sh "^0.6.0"
     prettier-plugin-toml "^0.3.1"
 
-"@1stg/tsconfig@^0.10.3":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@1stg/tsconfig/-/tsconfig-0.10.3.tgz#94fce139ee8cbb3f17cad66bb721df16fa731fab"
-  integrity sha512-AqtDYhyGX86xYCsfroHHH7PbfpGZ4mQO8/vm4C1Lz5RCENFNf4QFwGLgg4Y9XkpQGknwWsMsfPa8mXBVLbX8Rw==
+"@1stg/tsconfig@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@1stg/tsconfig/-/tsconfig-1.1.0.tgz#964a2a0ca86e97378df01f6882d1825aa8f13827"
+  integrity sha512-a5AovtABih6h1i2ryG67UybpkqWWoGHFRW2IzAJMMtatu9XXMoOHD6T8ZA5rbM/Pl1ZdgvPe/ExPzf5gQe939g==
 
 "@babel/code-frame@^7.0.0":
   version "7.10.4"
