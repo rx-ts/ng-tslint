@@ -17,6 +17,7 @@
   ],
   "scripts": {
     "build": "tsc -b tsconfig.rules.json",
+    "ci:build": "git submodule update --init --recursive && yarn build",
     "docs": "ts-node scripts/extract-docs",
     "format": "prettier --write .",
     "prepare": "yarn-deduplicate || exit 0",
