@@ -34,7 +34,7 @@ inherited class members and members that come from an interface.
 Rule that warns if a DI constructor is discovered for which parameters optionally
 inject classes without using the lightweight token pattern. The rule intends to help
 with optimized source code that works well for tree shakers. Read more about this here:
-https://next.angular.io/guide/lightweight-injection-tokens.
+https://angular.io/guide/lightweight-injection-tokens.
 
 ### member-naming
 
