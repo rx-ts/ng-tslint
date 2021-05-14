@@ -17,25 +17,33 @@
   ],
   "scripts": {
     "build": "tsc -b tsconfig.rules.json",
+    "ci:build": "git submodule update --init --recursive && yarn build",
     "docs": "ts-node scripts/extract-docs",
+    "format": "prettier --write .",
     "prepare": "yarn-deduplicate || exit 0",
-    "release": "npm run build && clean-publish"
+    "prerelease": "npm run build",
+    "release": "clean-publish && changeset publish"
   },
   "peerDependencies": {
     "tslint": "^6.0.0",
     "typescript": "^4.0.0"
   },
   "dependencies": {
-    "tslib": "^2.2.0"
+    "minimatch": "^3.0.4",
+    "tsutils": "^3.21.0"
   },
   "devDependencies": {
     "@1stg/prettier-config": "^1.7.3",
     "@1stg/tsconfig": "^1.3.1",
+    "@changesets/changelog-github": "^0.4.0",
+    "@changesets/cli": "^2.16.0",
     "@types/minimatch": "^3.0.4",
     "@types/node": "^15.0.3",
+    "clean-publish": "^2.2.0",
     "ts-node": "^9.1.1",
     "tslint": "^6.1.3",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "yarn-deduplicate": "^3.1.0"
   },
   "prettier": "@1stg/prettier-config",
   "renovate": {
