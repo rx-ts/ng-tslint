@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@1stg/prettier-config@^1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@1stg/prettier-config/-/prettier-config-1.7.3.tgz#5a6a8cd1393e6400d6fff657cf005ce3dae69faf"
-  integrity sha512-52ofhrrtd/Bwim4Xu67quz2HyB2wNrE3doUHDUVeSEOh60qschKyBWIYhWMhrXppFI/X9wN34kuBqN655mMX4g==
+"@1stg/prettier-config@^1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@1stg/prettier-config/-/prettier-config-1.7.4.tgz#3c99be60dcfa06a0900b9bbd5f19469a4d44dc35"
+  integrity sha512-J7f9Z/LbNJwJpNpmPr9PkpMlJnC4sDpAJEUZR/qT3IQsbh0xE4ZpGIgo4kzIf1goWsIGoso6aF+X/tzkpv5kAA==
   dependencies:
-    "@prettier/plugin-pug" "^1.15.2"
-    "@prettier/plugin-ruby" "^1.5.5"
+    "@prettier/plugin-pug" "^1.15.3"
+    "@prettier/plugin-ruby" "^1.6.0"
     "@prettier/plugin-xml" "^0.13.1"
-    prettier-plugin-pkg "^0.9.0"
-    prettier-plugin-sh "^0.6.1"
-    prettier-plugin-svelte "^2.3.0"
+    prettier-plugin-pkg "^0.10.0"
+    prettier-plugin-sh "^0.7.1"
+    prettier-plugin-svelte "^2.3.1"
     prettier-plugin-toml "^0.3.1"
 
 "@1stg/tsconfig@^1.4.0":
@@ -291,17 +291,17 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@prettier/plugin-pug@^1.15.2":
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.15.2.tgz#f428298b9a39953eaab06d82c75defd138b1ba71"
-  integrity sha512-/2juZ8zFQQr3TXUCoUHT7JKwASkUZYnOk0Ex2rFoYcE7TeqEt0/WYP1H4SeopB9h7+jJO9TPquu4LqVVluylGw==
+"@prettier/plugin-pug@^1.15.3":
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.15.3.tgz#9142346819604be5437ae461255d3055e0cef430"
+  integrity sha512-LZGIhcMrIoLVWIb4kIFoc+qzw9UufW6KPAAhGiHsvW26akaXtKk8p1ZeDKwXMXalId8lfhracv6HdP7zzL9R7Q==
   dependencies:
     pug-lexer "^5.0.0"
 
-"@prettier/plugin-ruby@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-1.5.5.tgz#9e206fc856a182a292fcfab9043f53c7a3d0af97"
-  integrity sha512-b387GdXU+LrnY+oaKWRUI5EnsUvrQ0G1jUSVPkvUTGzp/w+BB9/n4SICVPY3V9/wYsvWpAZq4LkE4FdBufXUtA==
+"@prettier/plugin-ruby@^1.6.0":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-1.6.1.tgz#14489985513a72e052b57c1cf9beae288880faa8"
+  integrity sha512-PGDCATgVTQz0s/NB9nStiXVCIr+hG/XnKeAO/kguaHrNf8VwCpP5Ul+/KQao0z0QFBy2PDY8kWptfDQCa7WMXg==
   dependencies:
     prettier ">=1.10"
 
@@ -1434,22 +1434,22 @@ preferred-pm@^3.0.0:
     path-exists "^4.0.0"
     which-pm "2.0.0"
 
-prettier-plugin-pkg@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-pkg/-/prettier-plugin-pkg-0.9.0.tgz#b52b01181d880347a516f75a4b3ff51e6f82e64b"
-  integrity sha512-Wpxe5KuNMGriJl96Zs5GookaDxs+byl3qcDq4+qMOabxeK8un0am5yGNpyuVsSEWdTTEQ96chC8fPRxl/n+euA==
+prettier-plugin-pkg@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-pkg/-/prettier-plugin-pkg-0.10.0.tgz#07d5acfcc3818dbec957e21e9860d7c3f80e02d4"
+  integrity sha512-NvqkGTfAdB9Bu7txMaePQTieVAo4mvBGkWsdtOego5WwJT3cu6mLlYDBe/FEQ9gcW6+vjYiBwkP0qs3lBIZbfw==
 
-prettier-plugin-sh@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-sh/-/prettier-plugin-sh-0.6.1.tgz#094d1d190f0d8a53bfd522a68f17a95ca741047d"
-  integrity sha512-Weelg53FBb1Z5Q1/GpQIb4s//BdhmPAABjJfe6VTQ3m8upQjM36sVVboNOUVvYn3K+LMwzW4vkxhqLQ+vvfBKQ==
+prettier-plugin-sh@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-sh/-/prettier-plugin-sh-0.7.1.tgz#a2d38de10e55919ea945a6e72c4815b16d6614ad"
+  integrity sha512-2MWRdGOSz0yf/z2kTKF1AqxDuH9MZD8faoDAz5ySGphxssi9oyM3Ys+jp7AfqsCXvGUDbRA4EJOlKS0yZKAW6w==
   dependencies:
     mvdan-sh "^0.5.0"
 
-prettier-plugin-svelte@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-2.3.0.tgz#9956a39d18b217557ab8766c264d8cd003983608"
-  integrity sha512-HTzXvSq7lWFuLsSaxYOUkGkVNCl3RrSjDCOgQjkBX5FQGmWjL8o3IFACSGhjPMMfWKADpapAr0zdbBWkND9mqw==
+prettier-plugin-svelte@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-2.3.1.tgz#926184a490549688dbea0a8d61c1b1ae20218368"
+  integrity sha512-F1/r6OYoBq8Zgurhs1MN25tdrhPw0JW5JjioPRqpxbYdmrZ3gY/DzHGs0B6zwd4DLyRsfGB2gqhxUCbHt/D1fw==
 
 prettier-plugin-toml@^0.3.1:
   version "0.3.1"
