@@ -1,6 +1,6 @@
 {
   "name": "ng-tslint",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Useful TSLint rules extracted from `angular/components` for Angular libraries.",
   "repository": "git+https://github.com/rx-ts/ng-tslint.git",
   "funding": {
