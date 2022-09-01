@@ -15,10 +15,10 @@
     prettier-plugin-svelte "^2.6.0"
     prettier-plugin-toml "^0.3.1"
 
-"@1stg/tsconfig@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@1stg/tsconfig/-/tsconfig-2.0.1.tgz#37ff4e5771d805a787e6415a866f7aa0c02f71e7"
-  integrity sha512-CjtmDn/zNM1M0IVid340V7revyabea324zJKpgBiC556akKZzAWaTVW+DbjPKptNbUmH8NnahpGfXv2384BC9A==
+"@1stg/tsconfig@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@1stg/tsconfig/-/tsconfig-2.3.1.tgz#1d837bb2821f2ae8432cfbde0e681ed87f167bda"
+  integrity sha512-/CA4zzddYGeSNdpZgVxJIbRcK39xMDtPJUPZVrd8F7Mi725sXgK/okKOL2cyMxxcOGmFKfjoWRHOl0WIdv9Ztw==
 
 "@babel/code-frame@^7.0.0":
   version "7.14.5"
