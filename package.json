@@ -46,7 +46,7 @@
     "yarn-deduplicate": "^3.1.0"
   },
   "resolutions": {
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.4"
   },
   "prettier": "@1stg/prettier-config",
   "renovate": {
